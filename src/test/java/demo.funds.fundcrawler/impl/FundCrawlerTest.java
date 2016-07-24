@@ -22,8 +22,6 @@ public class FundCrawlerTest {
         fundNetVoExpect.setDateStr("2016-07-06");
         fundNetVoExpect.setCurrentNet("0.9736");
 
-        System.out.println(fundNetVo.getCurrentNet());
-
         // 测试净值是否一致
         Assert.assertEquals(fundNetVo.getCurrentNet(), fundNetVoExpect.getCurrentNet());
     }

@@ -13,7 +13,8 @@ public interface IFundCrawler {
 
     /**
      * 查看某一个工作日某只基金的净值，
-     * 若该日期不是工作日，则返回最接近该天的后一个工作日的净值信息
+     * 若该日期不是工作日，则返回该天所属的工作日的净值信息
+     *
      * @param dateStr 日期
      * @param fundCode 基金代码
      *
